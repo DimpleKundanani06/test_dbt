@@ -1,7 +1,7 @@
  
 {{ config(materialized='table') }}
 
-with STATS as (
+with PLAYGROUND_DIMPLE_KUDANANI_STATS as (
     SELECT 
 TOTAL_DEATHS
 TOTAL_RECOVERED,
@@ -18,7 +18,7 @@ final as (
 
 select *
 from
- STATS
+ PLAYGROUND_DIMPLE_KUDANANI_STATS
 
 )
 
