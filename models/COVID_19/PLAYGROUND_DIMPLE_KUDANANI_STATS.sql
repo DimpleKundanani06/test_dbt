@@ -1,5 +1,5 @@
  
-{{ config(materialized='table') }}
+{{ config(materialized='table',schema='PLAYGROUND_DIMPLE_KUDANANI') }}
 
 with PLAYGROUND_DIMPLE_KUDANANI_STATS as (
     SELECT 
